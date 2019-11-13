@@ -50,6 +50,11 @@
   - frequent addition and deletion: linkedlist
   - frequent search: arraylist
   - less memory to store many elements: arraylist
+  
++ Examples for linked List
+  - Music Player – Songs in music player are linked to previous and next song. you can play songs either from starting or ending of the list.
+  - Previous and next page in web browser – We can access previous and next url searched in web browser by pressing back and next button since, they are linked as linked list.
+
 
 + Vector
   - almost identical to arraylist, but is synchronized
