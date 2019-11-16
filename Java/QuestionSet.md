@@ -4,3 +4,5 @@
 [practice2](https://www.edureka.co/blog/interview-questions/java-interview-questions/)
 
 [practice3](https://www.fullstack.cafe/blog/csharp-object-oriented-programming-interview-questions)
+
+[practice4](https://www.javatpoint.com/corejava-interview-questions)
