@@ -153,10 +153,6 @@
 
 - rotation
 
-## Splay Tree
-
-## B-Tree
-
 
 # Set and Map in Standard Libary
 
@@ -167,6 +163,7 @@
 
 - types
   + TreeSet(Sorted Set): worst time O(logn)
+  + HashSet, LinkedHashSet
 
 ## Map
 
@@ -177,7 +174,7 @@
   + map does not provide iterator
 
 - types
-  + TreeMap(Sorted Map): keep keys in sorted order
+  + TreeMap implement -> Sorted Map interface->extends map interface: keep keys in sorted order
 
 
 # Hashing
