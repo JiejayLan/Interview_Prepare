@@ -7,6 +7,7 @@ Contents:
 - [OOP](#OOP)
 - [Collections](#Collections)
 - [Threading](#Thread)
+- [Programming Language](#Programming_Language)
 - [Exception](#Exception)
 
 ## Object Oriented
@@ -16,11 +17,13 @@ Contents:
 + contain data in the form of fields(attributes)
 + code in the form of procedures(methods)
 + object's procedures can access and modify the data fields of the associated object
++ [OOP benefit](https://www.quora.com/What-are-the-advantages-of-OOP)
++ [Four Principle](https://stackify.com/oops-concepts-in-java/)
 
 <a name="Keywords"/>
 
 ## Java Keywords
-+ Access modifiers
++ Access modifiers [ref](https://stackoverflow.com/questions/215497/what-is-the-difference-between-public-protected-package-private-and-private-in)
 
   | modifier | access in same package | access in different package |
   | -------- | ---------------------- | --------------------------- |
@@ -28,6 +31,9 @@ Contents:
   | public   |         yes            |         yes                 |
   | default  |         yes            |          no                 |
   | protected|         yes            |     only if extend class    |  
+  -  Protected variable (or method) can NOT be accessed from an instance (created with new); it can only be accessed from a sub-class that extends the super-class (extended with extends).[ref](https://stackoverflow.com/questions/8908996/public-vs-protected)
+  
+  
   
 + `final` keyword
   - can be assigned to variable, method, class, object
@@ -70,6 +76,7 @@ Contents:
   - used when program fails the condition and wants to give warning
   - throw the exception from a method to the calling method
   - calling method can decide to handle exception or throw to its calling method
+  - [different between error and exception](https://stackoverflow.com/questions/912334/differences-between-exception-and-error)
 
   
   
@@ -279,6 +286,19 @@ Contents:
     + threads are easier to create than processes because they do not require a separate address space
     + multi-threading: be careful that threads share structures that should be modified by one thread at a time
     + processes are independent of each other
+    
+<a name="Programming_Language" />
+
+## Programming Language
+
++ Programming Language vs Scripting Language
+  -  Basically, all scripting languages are programming languages. The theoretical difference between the two is that scripting languages do not require the compilation step and are rather interpreted. For example, normally, a C program needs to be compiled before running whereas normally, a scripting language like JavaScript or PHP need not be compiled.
+
+  - Generally, compiled programs run faster than interpreted programs because they are first converted native machine code. Also, compilers read and analyze the code only once, and report the errors collectively that the code might have, but the interpreter will read and analyze the code statements each time it meets them and halts at that very instance if there is some error. 
+
++ Interpreted vs Compiled
+  - The difference between an interpreted and a compiled language lies in the result of the process of interpreting or compiling. An interpreter produces a result from a program, while a compiler produces a program written in assembly language.  If the program is complex, pieces of it may be spread across several files.
+
 
 <a name="Exception" />
 
