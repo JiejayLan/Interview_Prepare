@@ -7,7 +7,7 @@ Contents:
 - [OOP](#OOP)
 - [Collections](#Collections)
 - [Threading](#Thread)
-
+- [Exception](#Exception)
 
 ## Object Oriented
 
@@ -280,4 +280,13 @@ Contents:
     + multi-threading: be careful that threads share structures that should be modified by one thread at a time
     + processes are independent of each other
 
+<a name="Exception" />
+
+## Exception
+
++ Checked Exception vs Unchecked Exception
+  - Checked exceptions are generally those from which a program can recover & it might be a good idea to recover from such exceptions programmatically. Examples include FileNotFoundException, ParseException, etc. A programmer is expected to check for these exceptions by using the try-catch block or throw it back to the caller
+  - Unchecked exceptions. These are those exceptions that might not happen if everything is in order, but they do occur. Examples include ArrayIndexOutOfBoundException, ClassCastException, etc. 
   
++ Error
+  - Error and Exception both extend Throwable, but mostly Error is thrown by JVM in a scenario which is fatal and there is no way for the application program to recover from that error. For instance OutOfMemoryError.
