@@ -4,7 +4,6 @@ Contents:
 
 - [Keywords](#Keywords)
 - [Concepts](#Concepts)
-- [OOP](#OOP)
 - [Collections](#Collections)
 - [Threading](#Thread)
 - [Programming Language](#Programming_Language)
@@ -18,6 +17,40 @@ Contents:
 + code in the form of procedures(methods)
 + object's procedures can access and modify the data fields of the associated object
 + [Four Principle](https://stackify.com/oops-concepts-in-java/)
++ polymorphism
+  - define more than one function with the same name
+  - compile time polymorphism(overloading) and runtime polymorphism(overriding)
+  - method override: a class method has same name and signature as a method in parent class, JVM determines the proper method to call at runtime
+  - method overloading: method with same name but different signature, determined at compile time
+  
++ inheritance
+  - allow a child class to inherit some properties from its parent class
+  - use `extends` keyword
+  - only public and protected access modifiers can be accessed in child class
+  
++ multiple inheritance
+  - Java does not support multiple inheritance
+  - diamond problem
+  - use of multiple interfaces (or extend a class and implement some interfaces)
+  
+    ```
+      interface A{
+         add();
+      }
+      interface B{
+         add();
+      }
+      class C implements A,B{
+         add();
+      }
+     ```
++ abstraction
+  - convert real world objects in terms of class
+  
++ encapsulation
+  - achieved by combining the methods and attribute into a class
+  - class acting like a container encapsulation the properties
+  - hide how things work and expose the user requests
 
 <a name="Keywords"/>
 
@@ -148,45 +181,6 @@ Contents:
     + help in observing or manipulating runtime behavior
     + help in debugging or testing programs
     + can call method by name when we do not know the method in advance  
-  
-  
-<a name="OOP"/>
-
-## OOP
-+ polymorphism
-  - define more than one function with the same name
-  - compile time polymorphism(overloading) and runtime polymorphism(overriding)
-  - method override: a class method has same name and signature as a method in parent class, JVM determines the proper method to call at runtime
-  - method overloading: method with same name but different signature, determined at compile time
-  
-+ inheritance
-  - allow a child class to inherit some properties from its parent class
-  - use `extends` keyword
-  - only public and protected access modifiers can be accessed in child class
-  
-+ multiple inheritance
-  - Java does not support multiple inheritance
-  - diamond problem
-  - use of multiple interfaces (or extend a class and implement some interfaces)
-  
-    ```
-      interface A{
-         add();
-      }
-      interface B{
-         add();
-      }
-      class C implements A,B{
-         add();
-      }
-     ```
-+ abstraction
-  - convert real world objects in terms of class
-  
-+ encapsulation
-  - achieved by combining the methods and attribute into a class
-  - class acting like a container encapsulation the properties
-  - hide how things work and expose the user requests
   
 
 <a name="Collections"/>
