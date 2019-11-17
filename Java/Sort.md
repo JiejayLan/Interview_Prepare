@@ -1,20 +1,5 @@
 # Sorting Algorithms
 
-Contents: 
-
-- [Bubble Sort](#Bubble Sort)
-- [Insertion Sort](#Insertion Sort)
-- [Selection Sort](#Selection Sort)
-
-- [Merge Sort](#Merge Sort)
-- [Heap Sort](#Heap Sort)
-- [Quick Sort](#Quick Sort)
-
-- [Counting Sort](#Counting Sort)
-- [Bucket Sort](#Bucket Sort)
-
-
-
 <a name="Bubble Sort"/>
 
 ### Bubble Sort
