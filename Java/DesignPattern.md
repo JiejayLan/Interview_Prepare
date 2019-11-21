@@ -1,12 +1,5 @@
 # Design Pattern
 
-Contents:
-
-- [Types of Design Patterns](#Types of Design Patterns)
-- [Factory Pattern](#Factory Pattern)
-- [Singleton Pattern](#Singleton Pattern)
-- [MVC Pattern](#MVC Pattern)
-
 <a name="Types of Design Patterns" />
 
 ## Types of Design Patterns
