@@ -227,9 +227,6 @@
     - rehash only when an insertion fails
     - rehash when table reaches a certain load factor
 
-## hash tables with worst O(1) time
-
-
 
 # Priority Queue(Heap)
 
