@@ -52,6 +52,8 @@ Contents:
       - achieved by combining the methods and attribute into a class
       - class acting like a container encapsulation the properties
       - hide how things work and expose the user requests
+    + Abstraction vs Encapsulation
+      - [ref](https://javarevisited.blogspot.com/2017/04/difference-between-abstraction-and-encapsulation-in-java-oop.html)
 
 <a name="Keywords"/>
 
