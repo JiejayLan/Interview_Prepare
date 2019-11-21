@@ -110,9 +110,9 @@ public interface Shape{
 
 ## MVC Pattern
 + Model-View-Controller
-  - Model: represent object, can have logic to update controller if its data changes
-  - View: represent visualization of data from Model
-  - Controller: act on Model and View, control data flow into Model and update View when data changes
+  - Model: represent object, can have logic to update controller if its data changes.The model is responsible for managing the data of the application. It receives user input from the controller.
+  - View: represent visualization of data from Model.The view means presentation of the model in a particular format.
+  - Controller: act on Model and View, control data flow into Model and update View when data changes. The controller responds to the user input and performs interactions on the data model objects. The controller receives the input, optionally validates it and then passes the input to the model.
 
 + Structure
   - app: models, views, controllers
